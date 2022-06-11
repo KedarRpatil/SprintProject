@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -107,6 +107,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="Academy.validateCheckout" class="method navigator-link" hash-for-method="validateAppTitle">validateAppTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Academy.validateLoginPage" class="method navigator-link" hash-for-method="validateLoginPage">validateLoginPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -167,6 +172,21 @@
                   <a name="validateAddItem">
                   </a> <!-- validateAddItem -->
                   <span class="method-name">validateAddItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Academy.validateLoginPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginPage">
+                  </a> <!-- validateLoginPage -->
+                  <span class="method-name">validateLoginPage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -251,19 +271,23 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validateAppTitle')
-data.setCell(0, 2, 'Academy.validateCheckout')
-data.setCell(0, 3, 27200);
+data.setCell(0, 1, 'validateRemove')
+data.setCell(0, 2, 'Academy.validateRemove')
+data.setCell(0, 3, 36381);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validateRemove')
-data.setCell(1, 2, 'Academy.validateRemove')
-data.setCell(1, 3, 26351);
+data.setCell(1, 1, 'validateAppTitle')
+data.setCell(1, 2, 'Academy.validateCheckout')
+data.setCell(1, 3, 32815);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'validateAddItem')
-data.setCell(2, 2, 'Academy.validateAddItem')
-data.setCell(2, 3, 17009);
+data.setCell(2, 1, 'validateLoginPage')
+data.setCell(2, 2, 'Academy.validateLoginPage')
+data.setCell(2, 3, 28876);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateAddItem')
+data.setCell(3, 2, 'Academy.validateAddItem')
+data.setCell(3, 3, 16479);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -299,50 +323,58 @@ return data;
                 <span class="method-name">initialize</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">validateLoginPage</span>
+                <span class="method-start">13886 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">42780 ms</span>
+              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Academy.validateAddItem</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">15385 ms</span>
+                <span class="method-start">43187 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">validateAddItem</span>
-                <span class="method-start">24584 ms</span>
+                <span class="method-start">52531 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">41597 ms</span>
+                <span class="method-start">69012 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Academy.validateCheckout</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">42031 ms</span>
+                <span class="method-start">69405 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">validateAppTitle</span>
-                <span class="method-start">51871 ms</span>
+                <span class="method-start">79759 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">79073 ms</span>
+                <span class="method-start">112581 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Academy.validateRemove</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">79392 ms</span>
+                <span class="method-start">112977 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">validateRemove</span>
-                <span class="method-start">87865 ms</span>
+                <span class="method-start">121749 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">114217 ms</span>
+                <span class="method-start">158141 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

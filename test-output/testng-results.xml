@@ -1,61 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="3" passed="3" failed="0" skipped="0">
+<testng-results total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-11T04:54:25Z" name="Suite" finished-at="2022-06-11T04:56:20Z" duration-ms="114619">
+  <suite started-at="2022-06-11T06:29:14Z" name="Suite" finished-at="2022-06-11T06:31:52Z" duration-ms="158617">
     <groups>
     </groups>
-    <test started-at="2022-06-11T04:54:25Z" name="Validating Login page" finished-at="2022-06-11T04:54:40Z" duration-ms="15331">
+    <test started-at="2022-06-11T06:29:14Z" name="Validating Login page" finished-at="2022-06-11T06:29:57Z" duration-ms="43130">
       <class name="Academy.validateLoginPage">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.validateLoginPage@5a7fe64f]" started-at="2022-06-11T10:24:25Z" name="initialize" finished-at="2022-06-11T10:24:40Z" duration-ms="15310" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.validateLoginPage@6eeade6c]" started-at="2022-06-11T11:59:14Z" name="initialize" finished-at="2022-06-11T11:59:28Z" duration-ms="13869" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
+        <test-method signature="validateLoginPage()[pri:0, instance:Academy.validateLoginPage@6eeade6c]" started-at="2022-06-11T11:59:28Z" name="validateLoginPage" finished-at="2022-06-11T11:59:57Z" duration-ms="28876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.validateLoginPage@6eeade6c]" started-at="2022-06-11T11:59:57Z" name="teardown" finished-at="2022-06-11T11:59:57Z" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- Academy.validateLoginPage -->
     </test> <!-- Validating Login page -->
-    <test started-at="2022-06-11T04:54:41Z" name="Validating Add Item" finished-at="2022-06-11T04:55:07Z" duration-ms="26633">
+    <test started-at="2022-06-11T06:29:57Z" name="Validating Add Item" finished-at="2022-06-11T06:30:23Z" duration-ms="26203">
       <class name="Academy.validateAddItem">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.validateAddItem@6821ea29]" started-at="2022-06-11T10:24:41Z" name="initialize" finished-at="2022-06-11T10:24:50Z" duration-ms="9188" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.validateAddItem@6821ea29]" started-at="2022-06-11T11:59:57Z" name="initialize" finished-at="2022-06-11T12:00:06Z" duration-ms="9343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="validateAddItem()[pri:0, instance:Academy.validateAddItem@6821ea29]" started-at="2022-06-11T10:24:50Z" name="validateAddItem" finished-at="2022-06-11T10:25:07Z" duration-ms="17009" status="PASS">
+        <test-method signature="validateAddItem()[pri:0, instance:Academy.validateAddItem@6821ea29]" started-at="2022-06-11T12:00:06Z" name="validateAddItem" finished-at="2022-06-11T12:00:23Z" duration-ms="16479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAddItem -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.validateAddItem@6821ea29]" started-at="2022-06-11T10:25:07Z" name="teardown" finished-at="2022-06-11T10:25:07Z" duration-ms="419" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.validateAddItem@6821ea29]" started-at="2022-06-11T12:00:23Z" name="teardown" finished-at="2022-06-11T12:00:23Z" duration-ms="376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Academy.validateAddItem -->
     </test> <!-- Validating Add Item -->
-    <test started-at="2022-06-11T04:55:07Z" name="Validating Checkout" finished-at="2022-06-11T04:55:45Z" duration-ms="37344">
+    <test started-at="2022-06-11T06:30:23Z" name="Validating Checkout" finished-at="2022-06-11T06:31:07Z" duration-ms="43555">
       <class name="Academy.validateCheckout">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.validateCheckout@24b6b8f6]" started-at="2022-06-11T10:25:07Z" name="initialize" finished-at="2022-06-11T10:25:17Z" duration-ms="9840" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.validateCheckout@24b6b8f6]" started-at="2022-06-11T12:00:23Z" name="initialize" finished-at="2022-06-11T12:00:34Z" duration-ms="10352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="validateAppTitle()[pri:0, instance:Academy.validateCheckout@24b6b8f6]" started-at="2022-06-11T10:25:17Z" name="validateAppTitle" finished-at="2022-06-11T10:25:44Z" duration-ms="27200" status="PASS">
+        <test-method signature="validateAppTitle()[pri:0, instance:Academy.validateCheckout@24b6b8f6]" started-at="2022-06-11T12:00:34Z" name="validateAppTitle" finished-at="2022-06-11T12:01:06Z" duration-ms="32815" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAppTitle -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.validateCheckout@24b6b8f6]" started-at="2022-06-11T10:25:44Z" name="teardown" finished-at="2022-06-11T10:25:45Z" duration-ms="301" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.validateCheckout@24b6b8f6]" started-at="2022-06-11T12:01:06Z" name="teardown" finished-at="2022-06-11T12:01:07Z" duration-ms="378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Academy.validateCheckout -->
     </test> <!-- Validating Checkout -->
-    <test started-at="2022-06-11T04:55:45Z" name="Validating Remove" finished-at="2022-06-11T04:56:20Z" duration-ms="35219">
+    <test started-at="2022-06-11T06:31:07Z" name="Validating Remove" finished-at="2022-06-11T06:31:52Z" duration-ms="45625">
       <class name="Academy.validateRemove">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.validateRemove@422c3c7a]" started-at="2022-06-11T10:25:45Z" name="initialize" finished-at="2022-06-11T10:25:53Z" duration-ms="8473" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.validateRemove@422c3c7a]" started-at="2022-06-11T12:01:07Z" name="initialize" finished-at="2022-06-11T12:01:16Z" duration-ms="8771" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="validateRemove()[pri:0, instance:Academy.validateRemove@422c3c7a]" started-at="2022-06-11T10:25:53Z" name="validateRemove" finished-at="2022-06-11T10:26:19Z" duration-ms="26351" status="PASS">
+        <test-method signature="validateRemove()[pri:0, instance:Academy.validateRemove@422c3c7a]" started-at="2022-06-11T12:01:16Z" name="validateRemove" finished-at="2022-06-11T12:01:52Z" duration-ms="36381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateRemove -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.validateRemove@422c3c7a]" started-at="2022-06-11T10:26:19Z" name="teardown" finished-at="2022-06-11T10:26:20Z" duration-ms="391" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.validateRemove@422c3c7a]" started-at="2022-06-11T12:01:52Z" name="teardown" finished-at="2022-06-11T12:01:52Z" duration-ms="459" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
